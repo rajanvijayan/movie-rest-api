@@ -38,6 +38,8 @@ class Movie {
 
     /**
      * Initializes the Movie post type.
+     *
+     * This method registers the 'movies' custom post type with WordPress.
      */
     public static function init() {
         add_action('init', function() {
